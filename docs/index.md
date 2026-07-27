@@ -1,6 +1,7 @@
 # Omni-AWS
 
-AWS providers for the PlexusOne ecosystem.
+AWS providers for the PlexusOne ecosystem, covering LLM access, storage,
+secrets, memory, and developer-experience telemetry.
 
 ## Packages
 
@@ -11,6 +12,27 @@ AWS providers for the PlexusOne ecosystem.
 | **omnistorage** | S3 backend for OmniStorage | `github.com/plexusone/omni-aws/omnistorage/backend/s3` |
 | **omnivault** | Secrets Manager & Parameter Store for OmniVault | `github.com/plexusone/omni-aws/omnivault` |
 | **omnidevx** | Kiro CLI telemetry collector for OmniDevX | `github.com/plexusone/omni-aws/omnidevx` |
+
+## Developer Experience
+
+The OmniDevX package imports Kiro CLI local history into the shared
+`omnidevx-core` event model. It is intended for historical reporting over AI
+assistant usage, token consumption, sessions, and tool activity.
+
+```go
+import (
+    kiro "github.com/plexusone/omni-aws/omnidevx"
+    core "github.com/plexusone/omnidevx-core"
+)
+
+collector, err := kiro.New(kiro.Config{})
+result, err := collector.Collect(ctx, core.CollectRequest{
+    Subject: core.SubjectRef{PersonID: "person:jane"},
+})
+```
+
+See [OmniDevX: Kiro CLI Collector](omnidevx/index.md) for local paths,
+format-stability notes, and event mapping.
 
 ## Installation
 

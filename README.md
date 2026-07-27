@@ -27,6 +27,15 @@
 
 AWS provider packages for [PlexusOne](https://github.com/plexusone) libraries.
 
+## Features
+
+- **OmniLLM**: AWS Bedrock chat completion provider.
+- **OmniStorage**: S3-compatible object storage backend.
+- **OmniVault**: AWS Secrets Manager and Parameter Store providers.
+- **OmniMemory**: DynamoDB-backed memory provider.
+- **OmniDevX**: AWS Kiro CLI local telemetry collector for developer
+  experience analytics.
+
 ## Modules
 
 This repository contains multiple Go modules for AWS integrations:
@@ -160,6 +169,27 @@ results, err := client.Search(ctx, &core.SearchRequest{
 ```
 
 See [omnimemory/README.md](omnimemory/) for full documentation including local development, TTL, and multi-tenancy.
+
+### OmniDevX - Kiro CLI Collector
+
+```go
+import (
+    kiro "github.com/plexusone/omni-aws/omnidevx"
+    core "github.com/plexusone/omnidevx-core"
+)
+
+collector, err := kiro.New(kiro.Config{})
+result, err := collector.Collect(ctx, core.CollectRequest{
+    Subject: core.SubjectRef{PersonID: "person:jane"},
+})
+```
+
+The Kiro collector reads local Kiro CLI history from the OS-specific
+`data.sqlite3` path and optional `~/.kiro_sessions` snapshots, then emits
+canonical OmniDevX events for storage and reporting.
+
+See [docs/omnidevx](docs/omnidevx/) for details on local paths, estimated
+token accounting, and event mapping.
 
 ## License
 

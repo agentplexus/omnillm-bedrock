@@ -1,5 +1,5 @@
 site_name: omni-aws
-site_description: AWS providers for PlexusOne ecosystem (OmniLLM, OmniStorage, OmniVault)
+site_description: AWS providers for PlexusOne ecosystem (OmniLLM, OmniStorage, OmniVault, OmniMemory, OmniDevX)
 site_url: https://plexusone.github.io/omni-aws
 repo_url: https://github.com/plexusone/omni-aws
 repo_name: plexusone/omni-aws
@@ -53,6 +53,7 @@ nav:
       - OmniDevX (Kiro): omnidevx/index.md
   - Releases:
       - releases/index.md
+      - v0.10.0: releases/v0.10.0.md
       - v0.9.0: releases/v0.9.0.md
       - v0.8.0: releases/v0.8.0.md
       - v0.7.0: releases/v0.7.0.md
