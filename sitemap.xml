@@ -2,62 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://plexusone.github.io/omni-aws/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
+    </url>
+    <url>
+         <loc>https://plexusone.github.io/omni-aws/omnidevx/</loc>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/omnillm/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/omnimemory/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/omnistorage/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/omnivault/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.1.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
+    </url>
+    <url>
+         <loc>https://plexusone.github.io/omni-aws/releases/v0.10.0/</loc>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.2.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.3.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.4.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.5.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.6.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.7.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.8.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/omni-aws/releases/v0.9.0/</loc>
-         <lastmod>2026-06-28</lastmod>
+         <lastmod>2026-07-27</lastmod>
     </url>
 </urlset>
