@@ -6,6 +6,31 @@
   "commitConvention": "conventional",
   "releases": [
     {
+      "version": "v0.10.0",
+      "date": "2026-07-27",
+      "highlights": [
+        { "description": "OmniDevX Kiro CLI collector for local developer telemetry" },
+        { "description": "Historical token usage estimation from Kiro local SQLite and archived snapshots" }
+      ],
+      "added": [
+        { "description": "[omnidevx] Kiro CLI collector implementing the `omnidevx-core.Collector` interface", "commit": "babe3d4" },
+        { "description": "[omnidevx] Local SQLite collection for Kiro `conversations_v2` and `conversations` tables", "commit": "babe3d4" },
+        { "description": "[omnidevx] Optional `~/.kiro_sessions/*.json` archive snapshot collection", "commit": "babe3d4" },
+        { "description": "[omnidevx] Estimated `ai.usage.recorded` events for input, output, cache-read, and cache-creation tokens", "commit": "babe3d4" },
+        { "description": "[omnidevx] `ai.tool.completed` event extraction from Kiro request metadata and `ToolUse` records", "commit": "babe3d4" },
+        { "description": "[omnidevx] Defensive parsing for Kiro local format drift with diagnostics", "commit": "babe3d4" }
+      ],
+      "documentation": [
+        { "description": "[omnidevx] Kiro CLI collector documentation with usage example and OS-specific local paths", "commit": "88977b5" },
+        { "description": "[omnidevx] Format-stability and historical-estimation caveats for Kiro local records", "commit": "88977b5" },
+        { "description": "Add OmniDevX package links to README, docs index, and MkDocs navigation", "commit": "88977b5" }
+      ],
+      "dependencies": [
+        { "description": "Add `github.com/plexusone/omnidevx-core` v0.3.0 for canonical DevX events and local store compatibility", "commit": "babe3d4" },
+        { "description": "Add `modernc.org/sqlite` v1.54.0 for pure-Go Kiro local database access", "commit": "babe3d4" }
+      ]
+    },
+    {
       "version": "v0.9.0",
       "date": "2026-06-28",
       "highlights": [
