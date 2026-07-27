@@ -50,6 +50,7 @@ nav:
       - OmniMemory (DynamoDB): omnimemory/index.md
       - OmniStorage (S3): omnistorage/index.md
       - OmniVault (Secrets): omnivault/index.md
+      - OmniDevX (Kiro): omnidevx/index.md
   - Releases:
       - releases/index.md
       - v0.9.0: releases/v0.9.0.md

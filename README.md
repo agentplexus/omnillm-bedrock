@@ -37,6 +37,7 @@ This repository contains multiple Go modules for AWS integrations:
 | [`omnistorage`](omnistorage/) | S3 backend for [omnistorage-core](https://github.com/plexusone/omnistorage-core) | `go get github.com/plexusone/omni-aws/omnistorage` |
 | [`omnivault`](omnivault/) | AWS Secrets Manager & Parameter Store for [omnivault](https://github.com/plexusone/omnivault) | `go get github.com/plexusone/omni-aws/omnivault` |
 | [`omnimemory`](omnimemory/) | DynamoDB provider for [omnimemory](https://github.com/plexusone/omnimemory) | `go get github.com/plexusone/omni-aws/omnimemory` |
+| [`omnidevx`](omnidevx/) | Kiro CLI telemetry collector for [omnidevx-core](https://github.com/plexusone/omnidevx-core) | `go get github.com/plexusone/omni-aws/omnidevx` |
 
 ## Quick Start
 

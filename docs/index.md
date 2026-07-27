@@ -10,6 +10,7 @@ AWS providers for the PlexusOne ecosystem.
 | **omnimemory** | DynamoDB provider for OmniMemory | `github.com/plexusone/omni-aws/omnimemory/dynamodb` |
 | **omnistorage** | S3 backend for OmniStorage | `github.com/plexusone/omni-aws/omnistorage/backend/s3` |
 | **omnivault** | Secrets Manager & Parameter Store for OmniVault | `github.com/plexusone/omni-aws/omnivault` |
+| **omnidevx** | Kiro CLI telemetry collector for OmniDevX | `github.com/plexusone/omni-aws/omnidevx` |
 
 ## Installation
 
